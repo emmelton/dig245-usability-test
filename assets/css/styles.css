@@ -1,2 +1,140 @@
 
 /* css */
+
+/* Rectangle 2 */
+
+.txtbox1background {
+position: absolute;
+width: 557px;
+height: 643px;
+left: 130px;
+top: 479px;
+
+background: #E5E5E5;
+border-radius: 30px;
+}
+/* Rectangle 4 */
+
+.txtbox2background {
+position: absolute;
+width: 557px;
+height: 643px;
+left: 753px;
+top: 479px;
+
+background: #E5E5E5;
+border-radius: 40px;
+}
+
+/* instructions */
+.instuBk {
+position: absolute;
+width: 938px;
+height: 443px;
+left: 251px;
+top: 2227px;
+
+background: #E5E5E5;
+border-radius: 40px;
+}
+
+
+/* TITLES */
+h3 {
+position: absolute;
+width: 689px;
+height: 62px;
+left: 390px;
+top: 210px;
+
+font-family: Sunflower, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 62px;
+
+color: #226E86;
+}
+
+/* MAIN TITLE */
+
+h1 {
+position: absolute;
+width: 1233px;
+height: 76px;
+left: 113px;
+top: 15px;
+
+font-family: Bowlby One, cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 94px;
+z-index: 2;
+}
+
+/* BY WHO */
+
+.intros {
+position: absolute;
+width: 1090px;
+height: 45px;
+left: 185px;
+top: 103px;
+
+font-family: Bowlby One, cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 47px;
+
+color: #3A3A3A;
+}
+
+p, ol, ul {
+position: absolute;
+width: 1176px;
+height: 100px;
+left: 137px;
+top: 299px;
+
+font-family: Yaldevi Colombo;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #3A3A3A;
+}
+
+
+/* title back */
+.titleback {
+position: absolute;
+width: 1450px;
+height: 184px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #98B7C0 64.24%, rgba(196, 196, 196, 0) 100%);
+}
+
+
+/* subtitles */
+
+h5 {
+position: absolute;
+width: 493px;
+height: 39px;
+left: 785px;
+top: 520px;
+
+font-family: Sunflower;
+font-style: normal;
+font-weight: 500;
+font-size: 37px;
+line-height: 46px;
+
+color: #C26363;
+}
