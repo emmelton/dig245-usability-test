@@ -20,7 +20,7 @@
   <!-- visible content goes here -->
   <div class="container">
 
-<div class='scrollheader'></div>
+    <div class='scrollheader'></div>
 
     <div class='row'>
       <div class="col-12">
@@ -34,30 +34,30 @@
       </div>
     </div>
 
-    <div class='row'>
-      <div class="col-10 offset-2">
+    <div class='row mt-5'>
+      <div class="col-12">
         <h3>WHAT IS THE DESIGN EXPERIMENT?</h3>
       </div>
     </div>
 
-    <div class='row'>
+    <div class='row mt-2'>
       <div class="col-11 offset-1">
         <p>the design experiment is a short classroom-completed experiment to examine the usability of a website. our particular group selected Facebook as its site of choice to investigate. we outlined five basic tasks for the user to complete which
           allowed us to investigate the usability of Facebook’s user interface.</p>
       </div>
     </div>
 
-    <div class='row'>
-      <div class="col-6">
+    <div class='row mt-5'>
+      <div class="col-12 col-md-6">
         <h5>we evaluated the following:</h5>
       </div>
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <h5>the tasks we chose to examine:</h5>
       </div>
     </div>
 
     <div class='row'>
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <ul>
           <li>the focus of the user’s eyes and mouse</li>
           <li>the time it took to complete the task</li>
@@ -68,7 +68,7 @@
         </ul>
       </div>
 
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <ol>
           <li>if the user could find and check their Facebook notifications</li>
           <li>if the user could navigate to the Davidson 2020-21 School Year Facebook group</li>
@@ -144,10 +144,41 @@
 
   </div>
 
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    About Task 1
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Task 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    $('#myModal').on('shown.bs.modal', function() {
+      $('#myInput').trigger('focus')
+    })
+  </script>
 </body>
 
 </html>
