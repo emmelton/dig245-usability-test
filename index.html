@@ -16,15 +16,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Sunflower:wght@300;500;700&family=Yaldevi:wght@200;300;400;500&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
   <!-- visible content goes here -->
   <div class="container">
-
     <div class='scrollheader'></div>
 
     <div class='row'>
-      <div class="col-12" class='textsize'>
-        <h1>THE FACEBOOK DESIGN EXPERIMENT</h1>
+      <div class="col-12">
+        <h1 class='textsize txt'>THE FACEBOOK DESIGN EXPERIMENT</h1>
       </div>
     </div>
 
@@ -41,12 +41,12 @@
     </div>
 
     <div class='row mt-2'>
-      <div class="col-11 offset-1">
+      <div class="col-12">
         <p>the design experiment is a short classroom-completed experiment to examine the usability of a website. our particular group selected Facebook as its site of choice to investigate. we outlined five basic tasks for the user to complete which
           allowed us to investigate the usability of Facebook’s user interface.</p>
       </div>
     </div>
-
+    <br>
     <div class='row mt-5'>
       <div class="col-12 col-md-6">
         <h5>we evaluated the following:</h5>
@@ -75,18 +75,13 @@
     <div class='row mt-5'>
       <div class="col-12">
         <h3>OUR STUDY</h3>
+        <p>in this study, we were passive observers. our only interaction with the user, separate from our final discussion at the end of the test, was during the giving of instructions. we would direct the user to complete a task and then observe
+          behavior and actions. when he was finished with that task, we would then instruct him to complete the next.</p>
       </div>
     </div>
 
-    <div class='row'>
+    <div class='row mt-3'>
       <div class="col-12">
-        <h5>the starting point:</h5>
-        <p class=stpt>the user was instructed to begin on the home page, which looked something like this:</p>
-      </div>
-    </div>
-
-    <div class='row'>
-      <div class="col-9 col-sm-6 offset-md-3 offset-sm-6">
         <h5>what the test subject was told:</h5>
         <p>first, check your notifications.
           <br>
@@ -101,14 +96,14 @@
       </div>
     </div>
 
-    <div class='row'>
+    <div class='row mt-5'>
       <div class="col-12">
         <h3>THE ANALYSIS</h3>
       </div>
     </div>
 
     <div class='row'>
-      <div class="col-10 col-sm-6 offset-md-2 offset-sm-6">
+      <div class="col-12">
         <p>the image below details our data. select a numbered object to read our data. the numbers correspond to the numbered tasks above.</p>
       </div>
     </div>
@@ -117,8 +112,9 @@
 
     <div class=bnav>
 
+<div class='col-12'>
       <!-- TASK 1 TRIGGER -->
-      <button type="button" style='background:#C87A7A; color:#FFFFFF; ' class="btn btn-md" id="myBtn1">TASK 1</button>
+      <button type="button" style='background:#C87A7A; color:#FFFFFF; font-family: Sunflower, sans-serif;' class="btn btn-md" id="myBtn1">TASK 1</button>
       <!-- TASK 1 MODAL -->
       <div class="modal fade" id="myModal1" role="dialog">
         <div class='modal-dialog'>
@@ -132,97 +128,98 @@
               <p>this is where I put the test info?</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="close" id='closeMod1' data-dismiss="modal">Close</button>
+              <button type="button" style='background: #9C9C9C; color:#FFFFFF; font-family: Sunflower, sans-serif;' class="close" id='closeMod1' data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
       </div>
 
-<!-- TASK 2 TRIGGER -->
-<button type="button" style='background:#98B7C0; color:#FFFFFF; ' class="btn btn-md" id="myBtn2">TASK 2</button>
-<!-- TASK 2 MODAL -->
-<div class="modal fade" id="myModal2" role="dialog">
-  <div class='modal-dialog'>
+      <!-- TASK 2 TRIGGER -->
+      <button type="button" style='background:#98B7C0; color:#FFFFFF; font-family: Sunflower, sans-serif;' class="btn btn-md" id="myBtn2">TASK 2</button>
+      <!-- TASK 2 MODAL -->
+      <div class="modal fade" id="myModal2" role="dialog">
+        <div class='modal-dialog'>
 
-    <!-- MODAL 2 CONTENT -->
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4>TASK 2</h4>
+          <!-- MODAL 2 CONTENT -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class='odd'>TASK 2</h4>
+            </div>
+            <div class="modal-body">
+              <p>yo lol</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" style='background: #9C9C9C; color:#FFFFFF; font-family: Sunflower, sans-serif;' class="close" id='closeMod2' data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-        <p>yo lol</p>
+
+      <!-- TASK 3 TRIGGER -->
+      <button type="button" style='background:#C87A7A; color:#FFFFFF; font-family: Sunflower, sans-serif;' class="btn btn-md" id="myBtn3">TASK 3</button>
+      <!-- TASK 3 MODAL -->
+      <div class="modal fade" id="myModal3" role="dialog">
+        <div class='modal-dialog'>
+
+          <!-- MODAL 3 CONTENT -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4>TASK 3</h4>
+            </div>
+            <div class="modal-body">
+              <p>YAY</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" style='background: #9C9C9C; color:#FFFFFF; font-family: Sunflower, sans-serif;' class="close" id='closeMod3' data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="close" id='closeMod2' data-dismiss="modal">Close</button>
+
+      <!-- TASK 4 TRIGGER -->
+      <button type="button" style='background:#98B7C0; color:#FFFFFF; font-family: Sunflower, sans-serif;' class="btn btn-md" id="myBtn4">TASK 4</button>
+      <!-- TASK 4 MODAL -->
+      <div class="modal fade" id="myModal4" role="dialog">
+        <div class='modal-dialog'>
+
+          <!-- MODAL 4 CONTENT -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class='odd'>TASK 4</h4>
+            </div>
+            <div class="modal-body">
+              <p>FOUR</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" style='background: #9C9C9C; color:#FFFFFF; font-family: Sunflower, sans-serif;' class="close" id='closeMod4' data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- TASK 5 TRIGGER -->
+      <button type="button" style='background:#C87A7A; color:#FFFFFF; font-family: Sunflower, sans-serif;' class="btn btn-md" id="myBtn5">TASK 5</button>
+      <!-- TASK 5 MODAL -->
+      <div class="modal fade" id="myModal5" role="dialog">
+        <div class='modal-dialog'>
+
+          <!-- MODAL 5 CONTENT -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4>TASK 5</h4>
+            </div>
+            <div class="modal-body">
+              <p>FIVE</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" style='background: #9C9C9C; color:#FFFFFF; font-family: Sunflower, sans-serif;' class="close" id='closeMod5' data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-</div>
-
-<!-- TASK 3 TRIGGER -->
-<button type="button" style='background:#C87A7A; color:#FFFFFF; ' class="btn btn-md" id="myBtn3">TASK 3</button>
-<!-- TASK 3 MODAL -->
-<div class="modal fade" id="myModal3" role="dialog">
-  <div class='modal-dialog'>
-
-    <!-- MODAL 3 CONTENT -->
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4>TASK 3</h4>
-      </div>
-      <div class="modal-body">
-        <p>YAY</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="close" id='closeMod3' data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- TASK 4 TRIGGER -->
-<button type="button" style='background:#C87A7A; color:#FFFFFF; ' class="btn btn-md" id="myBtn4">TASK 4</button>
-<!-- TASK 4 MODAL -->
-<div class="modal fade" id="myModal4" role="dialog">
-  <div class='modal-dialog'>
-
-    <!-- MODAL 4 CONTENT -->
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4>TASK 4</h4>
-      </div>
-      <div class="modal-body">
-        <p>FOUR</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="close" id='closeMod4' data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- TASK 5 TRIGGER -->
-<button type="button" style='background:#C87A7A; color:#FFFFFF; ' class="btn btn-md" id="myBtn5">TASK 5</button>
-<!-- TASK 5 MODAL -->
-<div class="modal fade" id="myModal5" role="dialog">
-  <div class='modal-dialog'>
-
-    <!-- MODAL 5 CONTENT -->
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4>TASK 5</h4>
-      </div>
-      <div class="modal-body">
-        <p>FIVE</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="close" id='closeMod5' data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-    </div>
 
     <img src='assets/img/alexfulldtp.png' class='img-fluid' alt="Responsive image" />
 
@@ -233,8 +230,8 @@
       </div>
     </div>
 
-    <div class='row'>
-      <div class="col-10 col-sm-6 offset-md-2 offset-sm-6">
+    <div class='row mt-2'>
+      <div class="col-12">
         <p>our user and our team found some solutions or ways Facebook could update to fix a couple of design problems.</p>
       </div>
     </div>
@@ -248,7 +245,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   <script src="assets/js/main.js"></script>
   <script>
-  //MODAL 1
+    //MODAL 1
     $(document).ready(function() {
       $('#myBtn1').click(function() {
         $('#myModal1').modal("toggle");
@@ -261,58 +258,57 @@
       });
     });
 
-//MODAL 2
-$(document).ready(function() {
-  $('#myBtn2').click(function() {
-    $('#myModal2').modal("toggle");
-  });
-});
+    //MODAL 2
+    $(document).ready(function() {
+      $('#myBtn2').click(function() {
+        $('#myModal2').modal("toggle");
+      });
+    });
 
-$(document).ready(function() {
-  $('#closeMod2').click(function() {
-    $('#myModal2').modal("hide");
-  });
-});
+    $(document).ready(function() {
+      $('#closeMod2').click(function() {
+        $('#myModal2').modal("hide");
+      });
+    });
 
-//MODAL 3
-$(document).ready(function() {
-  $('#myBtn3').click(function() {
-    $('#myModal3').modal("toggle");
-  });
-});
+    //MODAL 3
+    $(document).ready(function() {
+      $('#myBtn3').click(function() {
+        $('#myModal3').modal("toggle");
+      });
+    });
 
-$(document).ready(function() {
-  $('#closeMod3').click(function() {
-    $('#myModal3').modal("hide");
-  });
-});
+    $(document).ready(function() {
+      $('#closeMod3').click(function() {
+        $('#myModal3').modal("hide");
+      });
+    });
 
-//MODAL 4
-$(document).ready(function() {
-  $('#myBtn4').click(function() {
-    $('#myModal4').modal("toggle");
-  });
-});
+    //MODAL 4
+    $(document).ready(function() {
+      $('#myBtn4').click(function() {
+        $('#myModal4').modal("toggle");
+      });
+    });
 
-$(document).ready(function() {
-  $('#closeMod4').click(function() {
-    $('#myModal4').modal("hide");
-  });
-});
+    $(document).ready(function() {
+      $('#closeMod4').click(function() {
+        $('#myModal4').modal("hide");
+      });
+    });
 
-//MODAL 5
-$(document).ready(function() {
-  $('#myBtn5').click(function() {
-    $('#myModal5').modal("toggle");
-  });
-});
+    //MODAL 5
+    $(document).ready(function() {
+      $('#myBtn5').click(function() {
+        $('#myModal5').modal("toggle");
+      });
+    });
 
-$(document).ready(function() {
-  $('#closeMod5').click(function() {
-    $('#myModal5').modal("hide");
-  });
-});
-
+    $(document).ready(function() {
+      $('#closeMod5').click(function() {
+        $('#myModal5').modal("hide");
+      });
+    });
   </script>
 </body>
 
