@@ -1,6 +1,13 @@
 
 /* css */
 
+@media screen and (max-width: 700px) {
+  .textsize {
+    font-size: 10px;
+  }
+}
+
+
 /* Rectangle 2 */
 
 .txtbox1background {
@@ -67,7 +74,6 @@ font-weight: normal;
 text-align: center;
 background: radial-gradient(168.89% 316.89% at 50% 50%, #C26363 0%, rgba(194, 99, 99, 0.166667) 99.99%, rgba(34, 110, 134, 1) 100%, rgba(194, 99, 99, 0) 100%);
 /* linear-gradient(0deg, #226E86, #226E86); */
-font-size: 60px;
 
 z-index: 3;
 }
@@ -97,6 +103,15 @@ font-size: 25px;
 color: #3A3A3A;
 }
 
+.stpt {
+font-family: Yaldevi Colombo, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+text-align: center;
+
+color: #3A3A3A;
+}
 
 /* title back */
 .titleback {
@@ -121,4 +136,8 @@ text-align: center;
 
 
 color: #C26363;
+}
+
+.bnav {
+  text-align: center;
 }
